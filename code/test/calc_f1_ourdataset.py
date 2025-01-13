@@ -141,8 +141,8 @@ def calculate_metrics(datas):
 
     return metrics
 
-# data = read_task_in_jsonl("/data/liangwj/codellama/design_implementation_smell_no_smell/design0w-100wunsmell_200wimplementation0w-300wunsmell_200w/smell_llama/merged_inference.jsonl")
-data = read_task_in_jsonl("/data/liangwj/codellama/design_implementation_smell_no_smell/design0w-100wunsmell_200wimplementation0w-300wunsmell_200w/newbase/merged_inference.jsonl")
+
+data = read_task_in_jsonl("../../output/newbase/merged_inference.jsonl")
 
 metrics = calculate_metrics(data)
 

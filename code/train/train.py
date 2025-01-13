@@ -42,7 +42,7 @@ os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 def setup_everything():
     parser = argparse.ArgumentParser()
     # parser.add_argument("--train_args_file", type=str, default='train_args/pretrain/full/bloom-1b1-pretrain-full.json', help="")
-    parser.add_argument("--train_args_file", type=str, default='/data/liangwj/codellama/paper/Detector/Firefly/train_args/sft/detector_qlora/qwen1.5-7b-sft-qlora.json', help="")
+    parser.add_argument("--train_args_file", type=str, default='train_args/sft/detector_qlora/qwen1.5-7b-sft-qlora.json', help="")
     parser.add_argument("--local_rank", type=int, default = 0, help="")
     args = parser.parse_args()
     train_args_file = args.train_args_file

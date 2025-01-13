@@ -9,16 +9,10 @@ from tqdm import tqdm
 import subprocess
 import time
 
-# -------------baseline1------------------------------------------------#
-# test_file = "/data/liangwj/codellama/design_implementation_smell_no_smell/design0w-100wunsmell_200wimplementation0w-300wunsmell_200w/dataset_all_test.jsonl"
-# test_file = "/data/liangwj/codellama/design_implementation_smell_no_smell/design0w-200wunsmell_0w-100wimplementation0w-600wunsmell_0w-100w/MLCQ_Qscore_cateory_balance_new_10000_test.jsonl"
 
 
 test_file = "../../dataset/test_clean.jsonl"
 
-# -------------baseline2------------------------------------------------#
-# multi_label_folder = "./baseline2_dataset/baseline_2/multi_label_classification"
-# models_folder = "../../../models/baseline2_models/repo_smell_shuffled_train_2"
 
 
 def get_free_gpus(min_free=2):

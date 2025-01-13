@@ -1,7 +1,7 @@
 {
     "output_dir": "output/newbase_tuned_on_baseline",
-    "model_name_or_path": "/data/liangwj/codellama/Firefly/checkpoint/newbase",
-    "train_file": "/data/liangwj/codellama/design_implementation_smell_no_smell/baseline/train_clean.jsonl",
+    "model_name_or_path": "newbase",
+    "train_file": "baseline/train_clean.jsonl",
     "template_name": "llama2",
     "num_train_epochs": 1,
     "per_device_train_batch_size": 1,
