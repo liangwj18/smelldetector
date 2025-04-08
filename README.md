@@ -5,4 +5,4 @@ Then use code/train/script/merge_lora.py to merge model/newbase in turn to get n
 train code's run way: code/train/run_train.sh (You need to download codellama-7B-Instruct-hf)
 test code's run way: code/test/test_baseline.py  or  code/test/test_ourdataset.py  (You need to download codellama-7B-Instruct-hf, then merge lora model in ./model; or you have finished training)
 
-model and dataset can be download at anonymous cloud:https://send.now/e3ejm5l54bpm
+model and dataset can be download at cloud: model（https://pan.baidu.com/s/1YtpqWCzmhaTBQ5yxFNpqdg |keyword:fxcr）, dataset(https://pan.baidu.com/s/16UuXvEj9Bh0TfxKEwbmr3w |keyword:mrtu)
